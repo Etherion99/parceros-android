@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/accent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/profileCL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/v_main_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTV"
+        app:layout_constraintWidth_percent=".8">
+
+        <ImageView
+            android:id="@+id/profilePicIV"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_galley"
+            app:layout_constraintDimensionRatio="4:5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <View
+            android:id="@+id/separatorV1"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            app:layout_constraintBottom_toBottomOf="@id/profilePicIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/white"
+            app:layout_constraintWidth_percent="0.9"/>
+
+        <TextView
+            android:id="@+id/profileNameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/separatorV1"
+            android:textColor="@color/white"
+            android:text="Juan Sebastiám"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/profileProfTV"
+            app:layout_constraintStart_toStartOf="@id/separatorV1"
+            app:layout_constraintBottom_toTopOf="@id/profileEditB"/>
+
+        <TextView
+            android:id="@+id/profileProfTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/separatorV1"
+            android:textColor="@color/white"
+            android:text="Desarrollador"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/separatorV1"
+            app:layout_constraintStart_toEndOf="@id/profileNameTV"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/profileLocTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/profileProfTV"
+            android:textColor="@color/white"
+            android:text="Bucaramanga"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/profileNameTV"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toTopOf="@id/profileShareB"/>
+
+        <Button
+            android:id="@+id/profileEditB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".5"
+            android:background="@drawable/v_button_border_white_left"
+            android:stateListAnimator="@null"
+            android:text="@string/edit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/profileShareB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent=".5"
+            android:background="@drawable/v_button_border_white_right"
+            android:stateListAnimator="@null"
+            android:text="@string/share"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        app:layout_constraintStart_toStartOf="@id/profileCL"
+        app:layout_constraintEnd_toEndOf="@id/profileCL"
+        android:id="@+id/addClientsB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v_button"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:text="@string/add_clients"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/profileCL"
+        android:padding="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

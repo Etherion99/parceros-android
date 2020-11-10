@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Results.PickWorkHoursActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/optionsCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backIB"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:background="@drawable/v_button_transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back_arrow"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/fromTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/optionsCL"
+        android:text="@string/from"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/toTV"
+        android:textColor="@color/accentGradient"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/toTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/optionsCL"
+        android:text="@string/to"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fromTV"
+        android:textColor="@color/accentGradient"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+
+    <ListView
+        android:id="@+id/fromHourLV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/doneB"
+        app:layout_constraintTop_toBottomOf="@id/fromTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/toHourLV"
+        android:dividerHeight="0dp"
+        android:divider="@null"/>
+
+    <ListView
+        android:id="@+id/toHourLV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/doneB"
+        app:layout_constraintTop_toBottomOf="@id/toTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fromHourLV"
+        android:dividerHeight="0dp"
+        android:divider="@null"/>
+
+    <Button
+        android:id="@+id/doneB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v_button_full_alt"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

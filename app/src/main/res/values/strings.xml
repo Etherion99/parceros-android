@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">Parceros</string>
+    <string name="slogan">Tu servicio a la mano</string>
+    <string name="phone">Teléfono</string>
+    <string name="send">Enviar</string>
+    <string name="resend">Reenviar</string>
+    <string name="edit_phone">Editar</string>
+    <string name="phone_auth_message">Hemos enviado un mensaje a tu celular, si no lo recibiste, espera 60 segundos para reintentarlo</string>
+
+    <string-array name="indicatives">
+        <item>+57</item>
+        <item>+1</item>
+    </string-array>
+
+    <!--Home-->
+    <string name="stats">Estadísticas</string>
+    <string name="invite">Invitar</string>
+    <string name="settings">Ajustes</string>
+    <string name="chat">Chat</string>
+
+    <string name="name">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="profession">Ocupación</string>
+    <string name="next">Siguiente</string>
+    <string name="save">Guardar</string>
+    <string name="work_hours">Horas de trabajo</string>
+    <string name="services">Servicios</string>
+    <string name="location">Ubicación</string>
+    <string name="profile_picture">Foto de perfil</string>
+    <string name="description">Descripción</string>
+    <string name="cancellation">Política de Cancelación</string>
+
+    <string name="rest_breaks">Descansos</string>
+    <string name="work_24_7">Trabajo 24/7</string>
+    <string name="add_more_hours">+ Añadir Más Horas</string>
+
+    <string-array name="days">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Toda la semana</item>
+    </string-array>
+
+    <string-array name="clock_hours">
+        <item>00:00</item>
+        <item>00:15</item>
+        <item>00:30</item>
+        <item>00:45</item>
+        <item>01:00</item>
+        <item>01:15</item>
+        <item>01:30</item>
+        <item>01:45</item>
+        <item>02:00</item>
+        <item>02:15</item>
+        <item>02:30</item>
+        <item>02:45</item>
+        <item>03:00</item>
+        <item>03:15</item>
+        <item>03:30</item>
+        <item>03:45</item>
+        <item>04:00</item>
+        <item>04:15</item>
+        <item>04:30</item>
+        <item>04:45</item>
+        <item>05:00</item>
+        <item>05:15</item>
+        <item>05:30</item>
+        <item>05:45</item>
+        <item>06:00</item>
+        <item>06:15</item>
+        <item>06:30</item>
+        <item>06:45</item>
+        <item>07:00</item>
+        <item>07:15</item>
+        <item>07:30</item>
+        <item>07:45</item>
+        <item>08:00</item>
+        <item>08:15</item>
+        <item>08:30</item>
+        <item>08:45</item>
+        <item>09:00</item>
+        <item>09:15</item>
+        <item>09:30</item>
+        <item>09:45</item>
+        <item>10:00</item>
+        <item>10:15</item>
+        <item>10:30</item>
+        <item>10:45</item>
+        <item>11:00</item>
+        <item>11:15</item>
+        <item>11:30</item>
+        <item>11:45</item>
+        <item>12:00</item>
+        <item>12:15</item>
+        <item>12:30</item>
+        <item>12:45</item>
+        <item>13:00</item>
+        <item>13:15</item>
+        <item>13:30</item>
+        <item>13:45</item>
+        <item>14:00</item>
+        <item>14:15</item>
+        <item>14:30</item>
+        <item>14:45</item>
+        <item>15:00</item>
+        <item>15:15</item>
+        <item>15:30</item>
+        <item>15:45</item>
+        <item>16:00</item>
+        <item>16:15</item>
+        <item>16:30</item>
+        <item>16:45</item>
+        <item>17:00</item>
+        <item>17:15</item>
+        <item>17:30</item>
+        <item>17:45</item>
+        <item>18:00</item>
+        <item>18:15</item>
+        <item>18:30</item>
+        <item>18:45</item>
+        <item>19:00</item>
+        <item>19:15</item>
+        <item>19:30</item>
+        <item>19:45</item>
+        <item>20:00</item>
+        <item>20:15</item>
+        <item>20:30</item>
+        <item>20:45</item>
+        <item>21:00</item>
+        <item>21:15</item>
+        <item>21:30</item>
+        <item>21:45</item>
+        <item>22:00</item>
+        <item>22:15</item>
+        <item>22:30</item>
+        <item>22:45</item>
+        <item>23:00</item>
+        <item>23:15</item>
+        <item>23:30</item>
+        <item>23:45</item>
+    </string-array>
+    <string-array name="hours">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="minutes">
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+    <string-array name="canellation_policies">
+        <item>Sin cancelaciones</item>
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>48 horas</item>
+        <item>72 horas</item>
+        <item>1 semana</item>
+        <item>2 semanas</item>
+    </string-array>
+
+    <string-array name="rest_breaks">
+        <item>05 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>35 minutos</item>
+        <item>40 minutos</item>
+        <item>45 minutos</item>
+        <item>50 minutos</item>
+        <item>55 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string name="done">Hecho</string>
+    <string name="from">Desde</string>
+    <string name="to">Hasta</string>
+
+    <string name="location_placeholder">Escribe tu dirección</string>
+    <string name="use_map">Seleccionar con mapa</string>
+    <string name="map_instructions">Arrastra el mapa para ubicar el marcador</string>
+    <string name="select_location">Seleccionar ubicación</string>
+    <string name="location_title">¿Dónde te gusatría reunirte con tus clientes?</string>
+    <string name="travel_preferences_title">Preferencias de ubicación</string>
+    <string name="services_at_location">Brindo mis servicios en mi ubicación</string>
+    <string name="travel_for_service">Estoy dispuesto a desplazarme</string>
+    <string name="max_travel_distance">Distancia máxima</string>
+
+    <string name="service_name">Nombre del servicio</string>
+    <string name="service_description">Describe brevemente de qué trata el servicio</string>
+    <string name="service_duration">Duración del servicio</string>
+    <string name="service_cost">Costo del servicio</string>
+    <string name="service_add">Añadir servicio</string>
+    <string name="hours">Horas</string>
+    <string name="minutes">Minutos</string>
+
+    <string name="your_description">Tu descripción</string>
+
+    <!--stats fragment-->
+    <string name="welcome">¡Bienvenido Parcero!</string>
+    <string name="edit">Editar</string>
+    <string name="share">Compartir</string>
+    <string name="add_clients">Sumar Clientes</string>
+
+    <!--invite fragment-->
+    <string name="greeting">¡Hola!\nJuan Sebastián</string>
+    <string name="invite_title">Mejora tus ingresos ofreciendo tus servicios</string>
+
+    <!--settings fragment-->
+    <string name="client_view">Vista Cliente</string>
+    <string name="bussines_page_tit">Página de Negocios</string>
+    <string name="bussines_page_sbt">Edita tu perfil</string>
+    <string name="services_policy_tit">Política de Servicios</string>
+    <string name="temp_removal_tit">Retiro temporal</string>
+    <string name="temp_removal_sbt">Desactiva tus servicios temporalmente</string>
+    <string name="contact_tit">Contáctanos</string>
+    <string name="contact_sbt">Siempre será un placer servirte</string>
+
+    <!--chat fragment-->
+    <string name="messages">Mensajes</string>
+
+    <!--Home-->
+    <string name="home">Inicio</string>
+
+    <!--home fragment-->
+    <string name="results">Resultados</string>
+    <string name="why_these_partners">¿Por qué estos Parceros?</string>
+
+    <!--view profile-->
+    <string name="comments">Comentarios</string>
+    <string name="social">Social</string>
+    <string name="schedule">Horario</string>
+    <string name="service_schedule">Horario de atención</string>
+    <string name="comment">Comentar</string>
+
+    <!--settings fragment-->
+    <string name="partner_view">Vista Parcero</string>
+    <string name="general_info_tit">Información General</string>
+    <string name="general_info_sbt">Edita tus datos de contacto.</string>
+    <string name="contact_team_tit">Contactar equipo PARCEROS</string>
+    <string name="contact_team_sbt">Estamos para servirte</string>
+    <string name="faq_tit">FAQ</string>
+    <string name="faq_sbt">Saber más&#8230;</string>
+    <string name="terms_use_tit">Términos de uso</string>
+    <string name="terms_use_sbt">Legal, condiciones y restricciones</string>
+    <string name="privacy_policy_tit">Política de privacidad</string>
+    <string name="privacy_policy_sbt">Protegemos tus datos</string>
+</resources>

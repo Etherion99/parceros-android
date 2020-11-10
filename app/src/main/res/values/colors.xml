@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#201E1F</color>
+    <color name="text">#4A4B4D</color>
+    <color name="accent">#4430B5</color>
+    <color name="accentLigth">#5D4CB4</color>
+    <color name="accentGradient">#EE2F63</color>
+    <color name="accentGradientLigth">#EF517C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="backgroundLigth">#F6F6F6</color>
+    <color name="accentBlack">#3F3F41</color>
+    <color name="disabledLigth">#C1C1C1</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="shadow">#80D8D5D5</color>
+    <color name="shadowDark">#80000000</color>
+    <color name="shadowLight">#99FFFFFF</color>
+    <color name="shadowAccent">#994430B5</color>
+    <color name="gradientBlue">#384087</color>
+
+    <color name="green">#43A047</color>
+    <color name="yellow">#FFB300</color>
+    <color name="red">#E53935</color>
+</resources>

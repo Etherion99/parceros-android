@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/statsFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.aciv.parceros.Fragments.PartnerChatFragment"
+        android:label="ChatFragment" />
+    <fragment
+        android:id="@+id/inviteFragment"
+        android:name="com.aciv.parceros.Fragments.PartnerInviteFragment"
+        android:label="InviteFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.aciv.parceros.Fragments.PartnerSettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.aciv.parceros.Fragments.PartnerStatsFragment"
+        android:label="StatsFragment" />
+</navigation>

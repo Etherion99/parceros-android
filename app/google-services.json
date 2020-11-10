@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135501685450",
+    "firebase_url": "https://parceros-279222.firebaseio.com",
+    "project_id": "parceros-279222",
+    "storage_bucket": "parceros-279222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135501685450:android:74a0064dc0a7cb1e3b4a33",
+        "android_client_info": {
+          "package_name": "com.aciv.parceros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135501685450-gorciha2cnru5u2uapl9p4om8i1bqj8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aciv.parceros",
+            "certificate_hash": "9c70f93b7ef9c30deb25a6ab40dea9900822897e"
+          }
+        },
+        {
+          "client_id": "135501685450-ehebhc3vnn9ptvqmvut5j86687aq1hph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy5XwqlYcCptDzI6px8WKLdiCyQsI3sfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135501685450-ehebhc3vnn9ptvqmvut5j86687aq1hph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
